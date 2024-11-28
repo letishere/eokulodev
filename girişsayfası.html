@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Giriş</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <th colspan="2">İsim-Soyisim</th>
+            <th colspan="2">Şifreniz</th>
+            <th colspan="3">Doğum Tarihiniz</th>
+        </tr>
+        <tr>
+            <td colspan="2" >
+                <form action="girişsayfası.html" method="get">
+                    <label for="isim"></label>
+                    <input type="text" id="isim" name="isim">
+            </td>
+            <td colspan="2">
+                <form action="girişsayfası.html" method="get">
+                    <label for="Şifre"></label>
+                    <input type="password" id="Şifre" name="Şifre">
+            </td>
+            <td colspan="3">
+                <form action="girişsayfası.html" method="get">
+                    <label for="DT"></label>
+                    <input type="date" id="DT" name="DT">
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <th colspan="2">Okulunuz</th>
+            <th colspan="2">Cinsiyetiniz</th>
+            <th colspan="3">Fotoğrafınız</th>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <form action="girişsayfası.html" method="get">
+                    <label for="Okul"></label>
+                    <input type="text" id="Okul" name="Okul">
+                </form>
+            </td>
+            <td colspan="2">
+                <form action="girişsayfası.html" method="get">
+                    <label for="Cinsiyet"></label>
+                    <select name="Cinsiyet" id="cinsiyet">
+                        <option value="Erkek">Erkek</option>
+                        <option value="Kız">Kız</option>
+                    </select>
+                </form>
+            </td>
+            <td colspan="3">
+                <form action="girişsayfası.html" method="get">
+                    <label for="foto"></label>
+                    <input type="file" id="Okul" name="Okul">
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="7">
+                <form action="girişsayfası.html" method="get">
+                    <label for="Submit"></label>
+                    <input onclick="window.location.href = 'başarılı.html';" value="Giriş Yap">
+            </td>
+        </tr>
+    </table>
+    
+</body>
+</html>
